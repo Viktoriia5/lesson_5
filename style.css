@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding: 60px 0 60px 0;
+  padding: 0 0 3% 0;
 }
 
 h2 {
@@ -63,4 +63,5 @@ article p {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  flex-wrap: wrap;
 }
