@@ -45,13 +45,13 @@ article p {
   background: url("./images/article2first.png") no-repeat center;
   width: 605px;
   height: 400px;
-  margin: 80px 0 80px 0;
+  /* margin: 80px 0 80px 0; */
 }
 .article2second {
   background: url("./images/article2second.png") no-repeat center;
   width: 605px;
   height: 400px;
-  margin: 80px 0px 80px 0;
+  /* margin: 80px 0px 80px 0; */
 }
 .gallery {
   display: flex;
@@ -65,4 +65,5 @@ article p {
   margin-left: -50vw;
   margin-right: -50vw;
   flex-wrap: wrap;
+  padding: 80px 0;
 }
