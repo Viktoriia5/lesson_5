@@ -45,18 +45,19 @@ article p {
   background: url("./images/article2first.png") no-repeat center;
   width: 605px;
   height: 400px;
-  margin: 80px 15px 80px 0;
+  margin: 80px 0 80px 0;
 }
 .article2second {
   background: url("./images/article2second.png") no-repeat center;
   width: 605px;
   height: 400px;
-  margin: 80px 0px 80px 15px;
+  margin: 80px 0px 80px 0;
 }
 .gallery {
   display: flex;
   justify-content: center;
-  margin: 80px 0;
+  column-gap: 30px;
+  margin: 0 0;
   width: 100vw;
   position: relative;
   left: 50%;
